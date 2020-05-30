@@ -20,10 +20,10 @@ public:
         model.clear();
 
         Data* data = const_cast<Data*>(selection);
-        IProperties* i_tree_data = adapt<IProperties>(data);
+      /*  IProperties* i_tree_data = adapt<IProperties>(data);
         for (Property property : i_tree_data->get_properties()) {
             add_top_level_object(property);
-        }
+        }*/
 
         
         refresh();
